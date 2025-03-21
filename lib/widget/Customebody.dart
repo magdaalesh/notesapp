@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:to_do/widget/custom_list.dart';
 import 'package:to_do/widget/customitem.dart';
 import 'package:to_do/widget/customsearch.dart';
 
@@ -24,7 +25,7 @@ class Customebody extends StatelessWidget {
               Customsearch(),
             ],
           ),
-          Customitem(),
+          Expanded(child: Listnotes()),
         ],
       ),
     );
