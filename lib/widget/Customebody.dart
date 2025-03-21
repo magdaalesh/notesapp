@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:to_do/widget/customitem.dart';
 import 'package:to_do/widget/customsearch.dart';
 
 class Customebody extends StatelessWidget {
@@ -23,6 +24,7 @@ class Customebody extends StatelessWidget {
               Customsearch(),
             ],
           ),
+          Customitem(),
         ],
       ),
     );
