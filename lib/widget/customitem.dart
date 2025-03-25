@@ -33,7 +33,7 @@ class Customitem extends StatelessWidget {
                 icon: Icon(
                   FontAwesomeIcons.trash,
                   color: Colors.black,
-                  size: 24,
+                  size: 20,
                 )),
           ),
           Padding(
