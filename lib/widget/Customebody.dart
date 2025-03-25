@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:to_do/widget/custom_list.dart';
-import 'package:to_do/widget/customitem.dart';
+import 'package:to_do/widget/customappbar.dart';
 import 'package:to_do/widget/customsearch.dart';
 
 class Customebody extends StatelessWidget {
@@ -11,19 +11,13 @@ class Customebody extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(24),
       child: Column(
-        children: [
+        children: const[
           SizedBox(
             height: 25,
           ),
-          Row(
-            children: [
-              Text(
-                "NoteApp",
-                style: TextStyle(fontSize: 24),
-              ),
-              Spacer(),
-              Customsearch(),
-            ],
+          Customappbar(
+            Title: "Notes app",
+            icon: Icons.search,
           ),
           Expanded(child: Listnotes()),
         ],
