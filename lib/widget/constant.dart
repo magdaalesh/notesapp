@@ -1,3 +1,4 @@
 import 'package:flutter/material.dart';
 
-Color kpcolor =const Color(0xff62fcd7);
+const kpcolor = Color(0xff62fcd7);
+const khivebox = 'notes_box';
